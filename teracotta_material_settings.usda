@@ -1,0 +1,167 @@
+#usda 1.0
+(
+    autoPlay = false
+    customLayerData = {
+        string creator = "usdzconvert preview 0.64"
+        string identifier = "DB547195-9EF8-4AB2-A848-58A3C9C91FFC"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 0.01
+    timeCodesPerSecond = 60
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Scope "Scenes" (
+        kind = "sceneLibrary"
+    )
+    {
+        def Xform "Scene" (
+            customData = {
+                bool preliminary_collidesWithEnvironment = 0
+                string sceneName = "Scene"
+            }
+            sceneName = "Scene"
+        )
+        {
+            token preliminary:anchoring:type = "plane"
+            token preliminary:planeAnchoring:alignment = "horizontal"
+
+            def Xform "Gravity"
+            {
+                double3 physics:gravitationalForce:acceleration = (0, -9.800000190734863, 0)
+            }
+
+            def Mesh "sceneGroundPlane" (
+                customData = {
+                    bool preliminary_isSceneGroundPlane = 1
+                }
+            )
+            {
+                rel material:binding = </Root/Scenes/Scene/sceneGroundPlane/physicsMaterial>
+                float3 normal = (0, 1, 0)
+                float3 position = (0, 0, 0)
+                rel preliminary:physics:collider:convexShape = </Root/Scenes/Scene/sceneGroundPlane>
+
+                def Material "physicsMaterial"
+                {
+                    double preliminary:physics:material:friction:dynamic = 0.58
+                    double preliminary:physics:material:friction:static = 0.58
+                    double preliminary:physics:material:restitution = 0.48
+                }
+            }
+
+            def Xform "Children"
+            {
+                def Xform "E43A08CAB1674603BA94DC8E0869CE01"
+                {
+                    rel material:binding = </Root/Scenes/Scene/Children/E43A08CAB1674603BA94DC8E0869CE01/PhysicsMaterial_E43A08CAB1674603BA94DC8E0869CE01>
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    double3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0.05000000074505806, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                    def Xform "Generated" (
+                        prepend references = </AssetFactories/Masters/Factories/PrimitiveShapeAssetFactory_7E22F61>
+                    )
+                    {
+                    }
+
+                    def Xform "Children"
+                    {
+                    }
+
+                    def Material "PhysicsMaterial_E43A08CAB1674603BA94DC8E0869CE01"
+                    {
+                        double preliminary:physics:material:friction:dynamic = 0.58
+                        double preliminary:physics:material:friction:static = 0.58
+                        double preliminary:physics:material:restitution = 0.48
+                    }
+
+                    over Cube "collider"
+                    {
+                        float3[] extent = [(-0.05, -0.05, -0.05), (0.05, 0.05, 0.05)]
+                        uniform token purpose = "guide"
+                        double size = 1
+                        quatf xformOp:orient = (0, 0, 0, 0)
+                        double3 xformOp:scale = (0.10000000149011612, 0.10000000149011612, 0.10000000149011612)
+                        double3 xformOp:translate = (0, 0, 0)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                    }
+                }
+            }
+        }
+    }
+}
+
+def Scope "AssetFactories" (
+    active = false
+)
+{
+    def Scope "Masters"
+    {
+        def Scope "Factories"
+        {
+            def "PrimitiveShapeAssetFactory_7E22F61"
+            {
+                def "Mesh0"
+                {
+                    rel material:binding = </AssetFactories/Masters/Factories/PrimitiveShapeAssetFactory_7E22F61/Mesh0/Material>
+
+                    def "Mesh0" (
+                        instanceable = true
+                        prepend references = </AssetFactories/Masters/Meshes/PrimitiveShapeAssetFactory_820F89C10>
+                    )
+                    {
+                    }
+
+                    def "Material" (
+                        prepend references = </AssetFactories/Masters/Materials/PrimitiveShapeAssetFactory_B05FE2AF0>
+                    )
+                    {
+                    }
+                }
+            }
+        }
+
+        def Scope "Meshes"
+        {
+            def Mesh "PrimitiveShapeAssetFactory_820F89C10"
+            {
+                int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
+                int[] faceVertexIndices = [0, 2, 3, 1, 4, 6, 7, 5, 2, 7, 6, 3, 0, 1, 4, 5, 0, 5, 7, 2, 1, 3, 6, 4]
+                point3f[] points = [(0.05, -0.05, 0.05), (-0.05, -0.05, 0.05), (0.05, 0.05, 0.05), (-0.05, 0.05, 0.05), (-0.05, -0.05, -0.05), (0.05, -0.05, -0.05), (-0.05, 0.05, -0.05), (0.05, 0.05, -0.05)]
+                normal3f[] primvars:normals = [(0, 0, 1), (0, -1, -0), (0, 1, 0), (0, 0, 1), (0, 0, -1), (0, -1, -0), (0, 1, 0), (0, 0, -1), (1, -0, 0), (0, -1, -0), (-1, 0, -0), (0, 0, 1), (1, -0, 0), (0, 0, 1), (-1, 0, -0), (0, 1, 0), (-1, 0, -0), (0, -1, -0), (1, -0, 0), (0, 0, -1), (-1, 0, -0), (0, 0, -1), (1, -0, 0), (0, 1, 0)] (
+                    interpolation = "faceVarying"
+                )
+                int[] primvars:normals:indices = [0, 13, 3, 11, 4, 21, 7, 19, 2, 23, 6, 15, 9, 1, 17, 5, 8, 18, 22, 12, 10, 14, 20, 16]
+                texCoord2f[] primvars:st = [(0.6, 0.6), (0.6, 0.6), (0.6, 0.6), (0.4, 0.4), (0.6, 0.6), (0.39999998, 0.4), (0.4, 0.4), (0.39999998, 0.4), (0.39999998, 0.6), (0.39999998, 0.6), (0.6, 0.6), (0.4, 0.6), (0.39999998, 0.4), (0.6, 0.4), (0.6, 0.4), (0.4, 0.6), (0.4, 0.6), (0.6, 0.4), (0.6, 0.6), (0.39999998, 0.6), (0.4, 0.4), (0.6, 0.4), (0.6, 0.4), (0.6, 0.4)] (
+                    interpolation = "faceVarying"
+                )
+                int[] primvars:st:indices = [0, 13, 3, 11, 4, 21, 7, 19, 2, 23, 6, 15, 9, 1, 17, 5, 8, 18, 22, 12, 10, 14, 20, 16]
+                uniform token subdivisionScheme = "none"
+            }
+        }
+
+        def Scope "Materials"
+        {
+            def Material "PrimitiveShapeAssetFactory_B05FE2AF0"
+            {
+                token outputs:surface.connect = </AssetFactories/Masters/Materials/PrimitiveShapeAssetFactory_B05FE2AF0/PBRShader.outputs:surface>
+
+                def Shader "PBRShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.57954663, 0.14497213, 0.046148844)
+                    color3f inputs:emissiveColor = (0, 0, 0)
+                    float inputs:metallic = 0
+                    float inputs:roughness = 0.65
+                    int inputs:useSpecularWorkflow = 0
+                    token outputs:surface
+                }
+            }
+        }
+    }
+}
+
