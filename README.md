@@ -33,6 +33,8 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 4. [Face anchor file  .usda format](https://github.com/wave-electron/usda_files/blob/master/face_anchor.usda)     ||     [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5381)
 
+*Note: Object anchors are not yet supported in USDZ files (only Reality Files)
+
 #### Material/Shader 
 
 1. [Aluminium material setting file .usda format](https://github.com/wave-electron/usda_files/blob/master/aluminium_material_settings.usda)   || [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5367)
