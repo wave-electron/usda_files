@@ -62,9 +62,15 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 #### Interactions
 
-1. [Interactive tap fires audio file .usda format ](https://github.com/wave-electron/usda_files/blob/master/tap_audio_cube2.usda)   ||   [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
+1. [Interactive tap trigger fires audio file .usda format ](https://github.com/wave-electron/usda_files/blob/master/tap_audio_cube2.usda)   ||   [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
 
-2. [ Interactive multi scene file .usda format](https://github.com/wave-electron/usda_files/blob/master/multi_scene3.usda)    || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5351)
+2. [ Interactive multi scene start trigger file .usda format](https://github.com/wave-electron/usda_files/blob/master/multi_scene3.usda)    || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5351)
+
+3. [Proximity trigger at 5O cm from Camera - audio + action jiggle file .usda format](https://github.com/wave-electron/usda_files/blob/master/proximity_trigger_50_centimetres_jiggle.usda)   || [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5385)
+
+4. [Collision trigger between fixed & dynamic physics objects - audio fires file .usda format](https://github.com/wave-electron/usda_files/blob/master/collision_trigger_fixed_dynamic_loop.usda)  || [.usda format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5387)
+
+5. [Notification trigger for use in iOS App - trigger fires audio + animation file .usda format](https://github.com/wave-electron/usda_files/blob/master/notification_trigger.usda)   ||   [.usdz format - viewable in browser on iOS (without trigger) ](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5389)  *note app based - notification triggers require custom app to be hardcoded to utilize these type of triggers 
 
 #### Physics Simulations
 
