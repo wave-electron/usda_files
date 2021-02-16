@@ -23,9 +23,19 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 ### List of .usda files that support different scene features
 
+#### Anchor Types
+
+1. [Horizontal anchor file .usda format](https://github.com/wave-electron/usda_files/blob/master/horizontal_anchor.usda)   ||  [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5383)
+
+2. [Vertical anchor file .usda format](https://github.com/wave-electron/usda_files/blob/master/vertical_anchor.usda)   ||   [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5377)
+
+3. [Image anchor file .usda format](https://github.com/wave-electron/usda_files/blob/master/image_anchor.usda)    ||    [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5379)
+
+4. [Face anchor file  .usda format](https://github.com/wave-electron/usda_files/blob/master/face_anchor.usda)     ||     [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5381)
+
 #### Material/Shader 
 
-1. [Aluminium material setting file .usda format](https://github.com/wave-electron/usda_files/blob/master/aluminium_material_settings.usda)   || [.usdz format - viewable](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5367)
+1. [Aluminium material setting file .usda format](https://github.com/wave-electron/usda_files/blob/master/aluminium_material_settings.usda)   || [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5367)
 
 2. [Brass material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/brass_material_settings.usda)   || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5365)
 
