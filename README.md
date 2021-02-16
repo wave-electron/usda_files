@@ -21,9 +21,42 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 ### List of .usda files that support different scene features
 
+#### Material/Shader 
 
-[Interactive tap fires audio file .usda format ](https://github.com/wave-electron/usda_files/blob/master/tap_audio_cube2.usda)   ||   [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
+1. [Aluminium material setting file .usda format](https://github.com/wave-electron/usda_files/blob/master/aluminium_material_settings.usda)   || [.usdz format - viewable](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5367)
 
-[ Interactive multi scene file .usda format](https://github.com/wave-electron/usda_files/blob/master/multi_scene3.usda)    || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5351)
+2. [Brass material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/brass_material_settings.usda)   || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5365)
+
+3. [Bronze material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/bronze_material_settings.usda)   || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5363)
+
+4. [Car paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/car_paint_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5369)
+
+5. [Glossy paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/glossy_paint_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
+
+6. [Gold paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/gold_paint_material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5361)
+
+7. [Matte material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/matte_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5373)
+
+8. [Plastic material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/plastic_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5371)
+
+9. [Rubber material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/rubber_material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5357)
+
+10. [Steel material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/steel_material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5359)
+
+11. [Terracotta material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/terracotta_material_settings.usda)  ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5355)
+
+
+#### Interactions
+
+1. [Interactive tap fires audio file .usda format ](https://github.com/wave-electron/usda_files/blob/master/tap_audio_cube2.usda)   ||   [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
+
+2. [ Interactive multi scene file .usda format](https://github.com/wave-electron/usda_files/blob/master/multi_scene3.usda)    || [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5351)
+
+#### Physics Simulations
+
+1. [Force applied to cube - on loop] (https://github.com/wave-electron/usda_files/blob/master/cube_with_force.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5353)
+
+
+#### Unsupported Features in iOS
 
 [BlendShape morphed cube .usda format](https://github.com/wave-electron/usda_files/blob/master/blendshapes_test.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=4181) (*not currently supported)
