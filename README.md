@@ -68,7 +68,7 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 3. [Proximity trigger at 5O cm from Camera - audio + action jiggle file .usda format](https://github.com/wave-electron/usda_files/blob/master/proximity_trigger_50_centimetres_jiggle.usda)   || [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5385)
 
-4. [Collision trigger between fixed & dynamic physics objects - audio fires file .usda format](https://github.com/wave-electron/usda_files/blob/master/collision_trigger_fixed_dynamic_loop.usda)  || [.usda format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5387)
+4. [Collision trigger between fixed & dynamic physics objects - audio fires file .usda format](https://github.com/wave-electron/usda_files/blob/master/collision_trigger_fixed_dynamic_loop.usda)  || [.usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5387)
 
 5. [Notification trigger for use in iOS App - trigger fires audio + animation file .usda format](https://github.com/wave-electron/usda_files/blob/master/notification_trigger.usda)   ||   [.usdz format - viewable in browser on iOS (without trigger) ](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5389)  *note app based - notification triggers require custom app to be hardcoded to utilize these type of triggers 
 
