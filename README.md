@@ -54,7 +54,7 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 #### Physics Simulations
 
-1. [Force applied to cube - on loop] (https://github.com/wave-electron/usda_files/blob/master/cube_with_force.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5353)
+1. [Force applied to cube - on loop](https://github.com/wave-electron/usda_files/blob/master/cube_with_force.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5353)
 
 
 #### Unsupported Features in iOS
