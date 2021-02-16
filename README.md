@@ -13,7 +13,7 @@ Introduction to USD => [https://graphics.pixar.com/usd/docs/index.html](https://
 .usdc, binary encoded
 .usdz, a package file which is a zero-compression, unencrypted zip archive, which may contain usd, usda, usdc, png, jpeg, m4a, mp3, and wav files.
 
-Apple support .usdz files in SceneKit & RealityKit, for 3D model interchange purposes. These USDZ files open up in Safari (AR Quick Look)  & Chrome Browser (SceneViewer) on iOS or iPadOS. 
+Apple support .usdz files in SceneKit & RealityKit, for 3D model interchange purposes. These USDZ files open up in macOS (file Preview),  Safari broswer (AR Quick Look)  & Chrome browser (SceneViewer) on iOS or iPadOS. 
 
 Reality Composer a USDZ scene builder that fully supports all of USDZ capababilites including extended USD Schema  - interactive behaviours, spatial audio, physics etc 
 
