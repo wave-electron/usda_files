@@ -47,7 +47,7 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 5. [Glossy paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/glossy_paint_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5347)
 
-6. [Gold paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/gold_paint_material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5361)
+6. [Gold paint material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/gold__material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5361)
 
 7. [Matte material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/matte_material_settings.usda)   ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5373)
 
