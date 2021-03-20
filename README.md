@@ -57,7 +57,7 @@ usage: ./usdzconvert ./USDZ/tapBox.usdz /USDA/tapBox.usda
 
 10. [Steel material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/steel_material_settings.usda)    ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5359)
 
-11. [Terracotta material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/terracotta_material_settings.usda)  ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5355)
+11. [Terracotta material settings file .usda format](https://github.com/wave-electron/usda_files/blob/master/teracotta_material_settings.usda)  ||  [ .usdz format - viewable in browser on iOS](https://usdzshare.com/?ug-gallery=photo-detail&photo_id=5355)
 
 
 #### Interactions
